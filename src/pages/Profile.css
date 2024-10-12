@@ -1,0 +1,59 @@
+/* Toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Thanh tiêu đề */
+.thanh {
+  padding: 20px;
+  background-color: #4a90e2; /* Màu xanh dương nhẹ */
+  color: white;
+  text-align: center;
+  border-bottom: 3px solid #357ABD; /* Màu xanh đậm hơn để tạo sự tương phản */
+}
+
+/* Nội dung chính */
+.profile-info {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FEF2E4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng nhẹ */
+  position: relative;
+  left:115px;
+  top:65px;
+}
+
+/* Thông tin người dùng */
+.profile-info span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333; /* Màu chữ tối để dễ đọc */
+  font-weight: 500;
+} 
+
+/* Thay đổi màu sắc của các liên kết nếu có */
+.profile-info a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.profile-info a:hover {
+  text-decoration: underline;
+}
+.profile-img {
+  width: 150px; /* Hoặc kích thước mong muốn */
+  height: 150px;
+  border-radius: 50%; /* Để hình ảnh thành hình tròn */
+  object-fit: cover; /* Cắt ảnh để vừa khung */
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+}

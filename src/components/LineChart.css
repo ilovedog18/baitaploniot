@@ -1,0 +1,7 @@
+.line-chart-container {
+  width: 60%; /* Điều chỉnh chiều rộng */
+  height: 500px; /* Điều chỉnh chiều cao */
+  margin: 0 auto; /* Căn giữa */
+  position: relative; /* Để có thể sử dụng top */
+  top: -600px; /* Dịch lên trên */
+}

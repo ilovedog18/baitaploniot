@@ -1,0 +1,67 @@
+
+.thanh{
+  width: 100%;
+  height: 80px;
+  background-color: #F1F1F2 !important;
+  border: 1px solid black ;
+  
+}
+
+.text{
+ position: relative;
+ top:20px;
+ left: 110px;
+ color: black;
+
+  
+}
+.temperature{
+  height: 160px;
+  width: 200px;
+  background-color: #FEC8C8;
+  position: relative;
+  left: 650px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Humidity{
+  height: 160px;
+  width: 200px;
+  background-color: #95e3ef;
+  position: relative;
+  left: 650px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+
+
+}
+
+.Light{
+  height: 160px;
+  width: 200px;
+  background-color: #FFF8BA;
+  position: relative;
+  left: 650px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.Devices{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top:-610px;
+
+}
+
+
+
+.every-device{
+  margin: 0px 100px ;
+
+}
